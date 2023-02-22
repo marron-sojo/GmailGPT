@@ -1,0 +1,1 @@
+console.log("Mount Holyoke College!")
