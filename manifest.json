@@ -3,6 +3,9 @@
     "name": "Hello Extensions",
     "description": "Base Level Extension",
     "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
     "content_scripts": [
         {
         "matches": [
@@ -14,8 +17,7 @@
         "css": [
             "style.css"
         ],
-        "run_at": "document_end",
-        "all_frames": false
+        "all_frames": true
         }
     ],
     "action": {
